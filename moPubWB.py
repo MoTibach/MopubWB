@@ -108,6 +108,8 @@ def get_adunit(id, account_id):
     lineitem_list = []
     while num < zen:
         x = y["adSources"][num]["key"]
+        name = y["adSources"][num]["name"]
+        print "Fetching LineItem: " + name + " " + x
         eachLineItem = get_lineitem(x, account_id)
         if eachLineItem != False:
             lineitem_list.append(get_lineitem(x, account_id))
