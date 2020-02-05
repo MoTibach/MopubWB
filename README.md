@@ -1,2 +1,2 @@
 # MopubWB
-Waterfall Builder Script v0.0.2
+Waterfall Builder Script v0.0.3
