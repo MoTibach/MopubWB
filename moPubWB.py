@@ -214,7 +214,9 @@ def csv_row_parser(row, action):
                 "targetOther",
                 "bidStrategy",
                 "autoCpm",
-                "visible"
+                "visible",
+                "disabled",
+                "disallowAutoCpm"
             ]:
             # print "Skip: " + key + " " + value
             continue
