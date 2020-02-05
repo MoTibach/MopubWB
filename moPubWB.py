@@ -9,7 +9,7 @@ import re
 import os
 import getpass
 
-VERSION = "v0.0.2"
+VERSION = "v0.0.3"
 SCRIPT_NAME = "moPubWB.py"
 
 def login_to_mopub(username, password):
